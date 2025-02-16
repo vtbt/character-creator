@@ -10,14 +10,15 @@
   cursor: pointer;
 
   /*
-    HACK: Margin on an outer bound like this is
-    a little gross, but we haven't seen the tools
-    to deal with it yet!
-
-    I would typically solve this with Flexbox
-    and the `gap` property. We'll learn about it
-    in Module 4.
+    HACK: If I was building this UI in real life, I would
+    use Flexbox to lay out the group of buttons, using the
+    “gap” property to add space between them, and
+    controlling their alignment with “align-items”. Since
+    we haven’t covered Flexbox in the course yet, I’m
+    solving this using Flow layout, which requires a
+    couple of additional properties
   */
+  vertical-align: middle;
   margin-right: 4px;
 
   /*
