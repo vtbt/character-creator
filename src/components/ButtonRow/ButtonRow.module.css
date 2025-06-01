@@ -1,4 +1,12 @@
 .buttonRow {
-    text-wrap: nowrap;
+    /* text-wrap: nowrap; */
+    /* white-space is still the most reliable and widely used choice due to its excellent browser support. */
+    white-space: nowrap;
     overflow: auto;
+
+    margin-bottom: -22px;
+    margin-left: -22px;
+    margin-right: -22px;
+
+    padding: 22px;
 }
